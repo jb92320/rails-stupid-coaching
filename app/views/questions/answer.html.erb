@@ -1,0 +1,11 @@
+<h1 class= .container> Stupid coach </h1>
+<div class="alert alert-light" role="alert">
+<%= @ask %>
+<p class="fst-italic">-You</p>
+</div>
+<div class="alert alert-warning " role="alert">
+<p class="fw-bold"> <%=  @answer %> </p>
+<p class="fst-italic">-Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
